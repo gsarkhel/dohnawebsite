@@ -463,7 +463,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.6);
+  /* background: rgba(255, 255, 255, 0.6); */
   position: absolute;
   bottom: 0;
   top: 0;
@@ -486,6 +486,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h1 span {
   color: #006900;
+  text-shadow: 3px 3px 2px #ffffff, -3px -3px 2px #ffffff, 3px -3px 2px #ffffff, -3px 3px 2px #ffffff;
 }
 
 #hero h2 {
